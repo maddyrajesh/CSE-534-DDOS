@@ -1,4 +1,7 @@
 # CSE-534-DDOS
+
+This rpository is still being updated and is not complete as of 05/06/23.
+
 This repository contains the source code and instructions for setting up and running a Distributed Denial of Service Mitigation (DDOSM) system using the P4 programming language.
 
 The DDOSM-P4 is designed to detect and mitigate DDoS attacks in real-time by filtering suspicious traffic while allowing legitimate traffic to pass through.
@@ -12,7 +15,7 @@ You need to have Docker installed on your system. If you don't have Docker, you 
 ### Setting Up
 
 1. Clone this repository to your local machine:
-git clone https://github.com/yourusername/ddosm-p4.git
+git clone https://github.com/maddyrajesh/CSE-534-DDOS.git
 cd ddosm-p4
 
 2. Compile the P4 code:
