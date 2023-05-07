@@ -52,7 +52,7 @@ The classifier is now up and running, monitoring traffic and mitigating DDoS att
 
 ## Sources
 
-P4 Program taken from https://github.com/aclapolli/ddosd-p4. However edits had been done to support latest versions of BMv2 and P4C.
+P4 Program taken from https://github.com/aclapolli/ddosd-p4. However edits had been done to support mitigation control in latest versions of BMv2 and P4C.
 Jupyter Notebooks, Data Preprocessing and Analysis written by author.
 
 ## License
