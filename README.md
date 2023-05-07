@@ -52,6 +52,11 @@ fg
 
 The classifier is now up and running, monitoring traffic and mitigating DDoS attacks.
 
+## Sources
+
+P4 Program taken from https://github.com/aclapolli/ddosd-p4. However edits had been done to support latest versions of BMv2 and P4C.
+Jupyter Notebooks, Data Preprocessing and Analysis written by author.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
