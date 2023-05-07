@@ -17,7 +17,7 @@ git clone https://github.com/maddyrajesh/CSE-534-DDOS.git
 cd ddosm-p4
 
 2. Compile the P4 code:
-docker run -it --rm -v "/home/ilha/dev/p4/ddosm-p4:/workdir" --workdir /workdir asilha/p4lang-p4c:v122ok-euclid make
+docker run -it --rm -v "/home/ubuntu/ddosm-p4:/workdir" --workdir /workdir asilha/p4lang-p4c:v122ok-euclid make
 
 3. Create Docker networks:
 docker network create --driver bridge euclid_input
@@ -27,7 +27,7 @@ docker network create --driver bridge euclid_stats
 docker network ls
 
 4. Run the DDOSM-P4 container:
-docker run -dit --rm -v "/home/ilha/dev/p4/ddosm-p4:/workdir" --workdir /workdir --network euclid_input --name euclid asilha/p4lang-behavioral-model:euclid
+docker run -dit --rm -v "/home/ubuntu/ddosm-p4:/workdir" --workdir /workdir --network euclid_input --name euclid asilha/p4lang-behavioral-model:euclid
 
 5. Connect the container to the remaining networks:
 docker network connect euclid_legitimate euclid
