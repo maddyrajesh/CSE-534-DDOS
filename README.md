@@ -1,6 +1,6 @@
 # CSE-534-DDOS
 
-This rpository is still being updated and is not complete as of 05/06/23.
+This repository is still being updated and is not complete as of 05/07/23.
 
 This repository contains the source code and instructions for setting up and running a Distributed Denial of Service Mitigation (DDOSM) system using the P4 programming language.
 
